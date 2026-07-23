@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: terse-data-plane
+    runtime: node
+    region: oregon
+    plan: starter
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: TERSE_API_KEY
+        sync: false
+      - key: TERSE_SIGNING_SECRET
+        sync: false
