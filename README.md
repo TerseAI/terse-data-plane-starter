@@ -2,11 +2,13 @@
 
 This is a template for [Terse](https://useterse.ai) users to self host their Data Plane.
 
-Just clone this, and run:
+Just fork this repository, then clone your fork and do the following command in the root of the cloned project.
 
 ```bash
 terse attach
 ```
+
+Then you can make change to your Terse project and deploy them.
 
 See [Self-hosting the data plane](https://docs.useterse.ai/self-hosting) for the full guide.
 
