@@ -12,13 +12,10 @@ Then you can make change to your Terse project and deploy them.
 
 See [Self-hosting the data plane](https://docs.useterse.ai/self-hosting) for the full guide.
 
-Here is a neat button that will quickly deploy this in Render
-
-<p>
-  <a href="https://render.com/deploy?repo=https://github.com/TerseAI/terse-data-plane-starter">
-    <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" />
-  </a>
-</p>
+This repo includes a `render.yaml`, so you can deploy your fork on Render as a
+[Blueprint](https://render.com/docs/blueprint-spec): in the Render dashboard, choose
+**New > Blueprint**, connect your GitHub account, and select your fork. Render will
+detect `render.yaml` and provision the service from it.
 
 ## What's here
 
